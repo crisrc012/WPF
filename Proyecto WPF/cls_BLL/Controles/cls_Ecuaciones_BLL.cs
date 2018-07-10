@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using cls_DAL.Controles;
+
 namespace cls_BLL.Controles
 {
     public class cls_Ecuaciones_BLL
