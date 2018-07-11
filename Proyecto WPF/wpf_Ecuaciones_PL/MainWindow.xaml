@@ -27,7 +27,7 @@
                         <GradientStop Color="#FFFB5F47"/>
                     </LinearGradientBrush>
                 </Border.Background>
-                <Label Content="Ecuaciones Cuadráticas" FontSize="28" FontFamily="Lucida Calligraphy" FontWeight="SemiBold" Foreground="White" HorizontalAlignment="Center" Margin="346,204,-250,-173"/>
+                <Label Content="Ecuaciones Cuadráticas" FontSize="28" FontFamily="Lucida Calligraphy" FontWeight="SemiBold" Foreground="White" HorizontalAlignment="Center" Margin="51,21,45,10"/>
             </Border>
             <TextBox Name="txt_NumA" HorizontalAlignment="Left" Height="22" Margin="37,35,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="53" AcceptsReturn="True" MaxLines="1" KeyDown="txt_NumA_KeyDown"/>
             <TextBox Name="txt_NumB" HorizontalAlignment="Left" Height="22" Margin="109,35,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Width="53" KeyDown="txt_NumA_KeyDown"/>
@@ -49,9 +49,9 @@
                     </LinearGradientBrush>
                 </Border.BorderBrush>
             </Border>
-            <Button Content="Calcular" HorizontalAlignment="Left" Margin="272,35,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" BorderBrush="{x:Null}" Background="#FF31CE77" Foreground="White" Height="22" Click="Button_Click_2"/>
-            <Button Content="Limpiar" HorizontalAlignment="Left" Margin="272,71,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" BorderBrush="{x:Null}" Background="#FF31CE77" Foreground="White" Height="22" Click="Button_Click"/>
-            <Button Content="Salir" HorizontalAlignment="Left" Margin="304,186,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" BorderBrush="{x:Null}" Background="#FF31CE77" Foreground="White" Height="22" Click="Button_Click_3"/>
+            <Button x:Name="btnCalcular" Content="Calcular" HorizontalAlignment="Left" Margin="272,35,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" BorderBrush="{x:Null}" Background="#FF31CE77" Foreground="White" Height="22" Click="btnCalcular_Click"/>
+            <Button x:Name="btnLimpiar" Content="Limpiar" HorizontalAlignment="Left" Margin="272,71,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" BorderBrush="{x:Null}" Background="#FF31CE77" Foreground="White" Height="22" Click="btnLimpiar_Click"/>
+            <Button x:Name="btnSalir" Content="Salir" HorizontalAlignment="Left" Margin="304,186,0,0" Grid.Row="1" VerticalAlignment="Top" Width="75" BorderBrush="{x:Null}" Background="#FF31CE77" Foreground="White" Height="22" Click="btnSalir_Click"/>
 
         </Grid>
     </Border>
